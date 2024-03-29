@@ -1,0 +1,60 @@
+Module 4 Challenge: PyCity Schools Analysis 
+
+- strategic decisions regarding future school budgets and priorities 
+- analyze district-wide standardized test results 
+- Aggregate the data to showcase obvious trends 
+
+<< District Summary >>
+15 unique Schools, 39170 students analyzed, 
+total budget for the year for schools: $24649428
+avg math score: 78.985%
+avg reading score: 81.878%
+% passing math: 74.981%
+% pasing reading: 85.805%
+
+<< School Summary >>
+school based categorization for school type, total students,
+per student budget, avg math score, avg reading score,
+% passing math, % passing reading and % overall passing  
+
+<< Highest-Performing schools by % overall passing 
+--> Cabrera, Thomas, Griffin, Wilson, Pena [per student budget
+between $578 - $638] --> ALL CHARTER SCHOOLS
+--> total students ~ 962 - 2283
+--> Avg math score consistent ~83, avg reading score consistent ~83-84 
+--> % passing math 93-94 percent 
+--> % passing reading 95-97 percent 
+overall passing ~90-91% 
+
+<< Bottom performing schools >> 
+--> Rodriguez, Figueroa, Huang, Hernandez, Johnson [per student budget
+between $637 - $655] --> ALL DISTRICT SCHOOLS
+--> total students ~ 2917 - 4761
+--> Avg math score consistent ~76-77, avg reading score consistent ~80-81 
+--> % passing math 65-66 percent 
+--> % passing reading 80-81 percent 
+overall passing ~52-53% 
+
+<< Math Scores by Grade >>
+Range is above 70 to under 85 
+
+<< Reading Score by Grade >>
+Range is above 80 to under 85
+
+<< Scores by School Spending >>
+--> trend: overall passing % gets higher the less money is spent per student
+(<585; over 90% passing both and overall)
+($645-680; 53.27% overall, 66.165 math, 81.134 reading)
+
+<< Scores by School Size >>
+--> the largest schools have the lowest % overall passing, 
+also observed lower passing in individual categories 
+--> small and medium perform approximately equally well
+(<1000, 1000-2000)
+
+<< Scores by School Type>> 
+--> overall passing of 90.432 vs 53.672 (Charter better than district)
+particularly ovbious in math (93.621 vs 66.548)
+--> reading passing - 96.586 vs 80.799
+--> average lower score in math for district, pretty consistent
+average b/w reading and math in Charter
